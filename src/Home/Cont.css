@@ -1,0 +1,39 @@
+.main {
+    padding: 20px;
+    background: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+.fun{
+    background: #456;
+    padding: 2%;
+    margin: 1%;
+    border-radius: 15px;
+}
+.main h1 {
+    text-align: center;
+    color: #333;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background: #555;
+}
